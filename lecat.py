@@ -49,7 +49,7 @@ def parse_lexicon(lexicon):
         
     return(parsed_lexicon)
 
-def run_search(strings, query, this_type, this_category, column, regex = '\\Wquery\\W'):
+def run_search(strings, query, this_type, this_category, column, regex = '\\bquery\\b'):
     """ Search for query in strings 
     Parameters
     ----------
